@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Делаем контейнер высотой во весь экран */
+    background-image: url('https://i.pinimg.com/originals/9a/f6/ed/9af6ed7b3afb862e09effa0a34c5dca2.jpg');
+    background-size: cover; /* Заполнение фона без искажений */
+    background-position: center; /* Центрирование фона */
+}
+
+.subscribe-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #2980b9;
+}
